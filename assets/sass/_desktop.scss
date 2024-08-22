@@ -1,0 +1,73 @@
+@media(min-width:768px) {
+    .header {
+        .row {
+            .logo {
+                .img-fluid {
+                    width: 120px !important;
+                    height: 60px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px) {
+    main {
+        .bg-image {
+            background-image: url("../images/bg-image.jpg") !important;
+            width: 100% !important;
+            height: 30rem !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            position: relative !important;
+            background-position: right !important;
+            // margin-top: 9rem !important;
+
+            .card-container {
+                display: block !important;
+                top: 40% !important;
+                right: 3% !important;
+
+                .card {
+                    background-color: transparent;
+                    border: none !important;
+
+                    .card-body {
+                        .card-title {
+                            font-size: 1.75rem !important;
+                            font-weight: 700 !important;
+                            line-height: 1.5 !important;
+                        }
+
+                        .btn-red {
+                            background-color: var(--base-red) !important;
+                            color: var(--white) !important;
+                            font-weight: 700 !important;
+                        }
+
+                        .btn-white {
+                            background-color: var(--white) !important;
+                            color: var(--base-red) !important;
+                            font-weight: 700 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .extra-title-bg {
+            transform: translate(0, -4rem) !important;
+            width: 75% !important;
+        }
+
+        .section-4 {
+            .card {
+                .card-title {
+                    font-size: 1.75rem !important;
+                }
+            }
+        }
+
+        .section-5 {}
+    }
+}
